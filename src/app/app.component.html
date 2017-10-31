@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+<input type="text" class="form-control text-center w-25" [(ngModel)]="value1">
+<input type="text"  class="form-control text-center w-25" [(ngModel)]="value2">
+<input type="text"  class="form-control text-center w-25" [(ngModel)]="value3">
+<button (click)="minFunction()">min</button>
+<button (click)="maxFunction()">max</button><br>
+<span>result:{{result}}</span>
